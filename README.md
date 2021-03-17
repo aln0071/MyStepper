@@ -55,4 +55,4 @@ None of the below functions have any arguements.
 **moveBackward** - moves the motor 1 step backward
 **release** - stop power supply to motor
 
-> If release is not called, then the library will hold the motor in it's current position.
+> If release is not called, then the library will hold the motor in it's last position.
