@@ -51,8 +51,10 @@ void loop() {
 
 None of the below functions have any arguements.
 
-**moveForward** - moves the motor 1 step forward
-**moveBackward** - moves the motor 1 step backward
-**release** - stop power supply to motor
+|Function|Description|
+|---|---|
+|**moveForward()**|moves the motor 1 step forward|
+|**moveBackward()**|moves the motor 1 step backward|
+|**release()**|stop power supply to motor|
 
 > If release is not called, then the library will hold the motor in it's last position.
