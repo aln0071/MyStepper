@@ -7,7 +7,7 @@ Download this code and zip the resultant folder. Now, open the Arduino code edit
 Thats it. You can now start using this library!
 
 ## Advantages over the Arduino's default stepper library
-I wrote this library to add the **release** function for the stepper motor. Basically, when you use the default library provided with the Arduino, it will hold the position of the motor when the motor is idle. There is no option to turn off the power to the motor. This will eventually heat up the motor which is bad for the motor. So, I have added a release function to my library which will turn off the current supply to the motor. This will increase the life of the motor and also save energy. If you really want to hold the motor position, then, you can just omit calling the release function.
+I wrote this library to add the **release** function for the stepper motor. Basically, when you use the default library provided with the Arduino, it will hold the position of the motor when the motor is idle. There is no option to turn off the power to the motor. This will eventually heat up the motor which is bad. So, I have added a release function to my library which will turn off the current supply to the motor. This will increase it's life, and also save energy. If you really want to hold the motor position, then, you can just omit calling the release function.
 
 ## Example
 ```arduino
